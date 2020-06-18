@@ -1,0 +1,195 @@
+/*============== HTML Style ======================== */
+
+*    { box-sizing: border-box;} 
+html { 
+  font-size:                       100%; 
+}
+
+a {
+  text-decoration:                 none;
+  cursor:                       pointer;
+}
+body {
+  width:                           100%;
+  height:                      56.25rem;
+  font-family: 'Montserrat', sans-serif;
+  color:                        #211138;
+  background-color:             #f4f3f5;
+
+}
+h2, p,
+ul {
+  margin:                             0;
+} 
+
+h2 {
+  font-size:                       40px;
+  margin-bottom:                .625rem;
+}
+
+
+/*============== Head Style ======================= */
+
+header {
+  height:                          80px;
+  background-color:             #6200ea;
+}
+
+.head-2 {
+   position:                    relative;
+   margin-left:                 15.1125%;
+   
+}
+.logo {
+  float: left;
+  margin-top:                        1rem;
+  }
+/*============== Navbar Style ====================== */
+
+.nav-top {
+  padding-top:                   1.99rem;
+  margin-right:                    18.3%;
+}
+.nav-top3 {
+  float:                           right;
+  padding-bottom:                 1.8rem;
+  margin-left:                      7.5%;
+  color:                            #F4F3F5;
+  font:        Bold 12px/15px Montserrat;
+  letter-spacing:                  2.4px;
+  text-transform:              uppercase;
+  opacity:                          0.65;
+}
+.nav-top3:hover { 
+  border-bottom:                   solid; 
+  border-color:                  #FFFFFF; 
+  color:                         #FFFFFF;
+  opacity:                             1;
+}
+/*============== Article Style ====================== */
+
+article {
+  width:                           100%;
+  height:                         100vh;
+}
+
+.card-1 {
+  float:                           left;
+  height:                         40rem;
+  width:                         33.75%;
+  background-color:             #FFFFFF;
+  margin-left:                 15.3125%;
+  margin-top:                    7.5rem;
+  border-radius:                   15px;
+  padding:                      3.75rem;
+  
+}
+.card-2 {
+  float:                         right;
+  height:                        40rem;
+  width:                        33.75%;
+  background-color:            #FFFFFF;
+  padding:                     3.75rem;
+  margin-right:               15.3125%;
+  margin-top:                   7.5rem;
+  border-radius:                  15px;
+}
+.itext {
+text-align:                       left;
+font: Regular                     20px;
+letter-spacing:                    0px;
+color:                         #211138;
+opacity:                             1;
+margin-bottom:                 .625rem;
+}
+/*============== Map Style ====================== */
+.ctext-1 {
+text-align:                      left;
+font:       Bold 12px/15px Montserrat;
+letter-spacing:                 2.4px;
+color:                        #6200EA;
+text-transform:             uppercase;
+opacity:                            1;
+margin-bottom:                .625rem;
+}
+
+/*============== Social media Style ====================== */
+
+.contact-info__social-media-link { 
+display:                 inline-block;
+width:                       2.857rem; 
+height:                      2.857rem; 
+padding:                      .714rem; 
+border-radius:                    50%; 
+margin-right:                 .714rem;
+background-color:             #6200ea;
+text-align:                    center;
+margin-top:                      1rem;
+}
+
+.contact-info__social-media-icon { 
+color:                       #ffffff;
+font-size:                 1.4285rem;
+      }
+
+
+/*============== Imput Style ====================== */
+
+input[type=text], textarea {
+  width:                          100%;
+  height:                     3.125rem;
+  background-color:            #F4F3F5;
+  border: 2px solid            #ffffff;
+  padding:                        13px;
+  box-sizing:               border-box;
+  margin-bottom:               1.15rem;
+  resize:                     vertical;
+  font:           Bold 14px Montserrat;
+  letter-spacing:                  0px;
+  color:                       #211138;
+  opacity:                        0.25;
+}
+
+input[type=submit] {
+  width:                          100%;
+  background: #6200EA 0% 0% no-repeat padding-box;
+  color:                       #FFFFFF;
+  padding:              .925rem .25rem;
+  border:            2px solid #6200EA;
+  border-radius:                  24px;
+  cursor:                      pointer;
+}
+
+input[type=submit]:hover {
+  background-color:            #FFFFFF;
+  color:                       #6200EA;
+}
+
+.container {
+  border-radius:                   5px;
+  background-color:            #FFFFFF;
+}
+
+
+
+
+/*============== footer Style ====================== */
+
+footer {
+height:                        100px;
+text-align:                   center;
+background-color:            #211138;
+padding:             2.4rem 0 3rem 0;
+margin:                8.5rem 0 0  0;
+
+}
+.footer-1 {
+  text-transform:          uppercase; 
+  font-size:                 .857rem; 
+  font-weight:                  bold; 
+  letter-spacing:            .171rem; 
+  color:                     #b2acba;
+}
+.ftext-1 {
+  color:                     #6200EA;
+}
